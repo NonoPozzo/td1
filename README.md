@@ -6,4 +6,6 @@ Il vous est demandé de reproduire le 'layout' fournie (cf image) en :
 * renseignant le contenu des sélecteurs du fichier style.css
 
 # Consignes
-* Cloner le projet du professeur dans un le vôtre qui doit être privé.
+* Cloner le projet du professeur dans un le vôtre. Celui-ci doit :
+** être privé
+** en collaboration avec le professeur (seetings/collabortion/ajouter identifiant prof 'sinbrive')
