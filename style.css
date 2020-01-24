@@ -5,57 +5,59 @@
 }
 
 #wrapper {
-    /* bordure de en couleur grise;  */
-    /* padding de 10 pixel  */
+   border : solid grey ;   /* bordure de en couleur grise;  */
+    padding : 10px ; /* padding de 10 pixel  */
 }
 
 #header {
-    /* hauteur de 100 pixel;  */
-    /* couleur de fond selon le dessin fourni  */
-    /* padding de 10 pixel  */
+   height  : 100px ;   /* hauteur de 100 pixel;  */
+    background-color : purple ;/* couleur de fond selon le dessin fourni  */
+    padding : 10px; /* padding de 10 pixel  */
 } 
 
 #logo {
-     /* même hauteur que le header (entête);  */ 
-    /* largeur de 150 pixel  */
-   /* couleur de fond selon le dessin fourni  */
+    height : 100px ;	/* même hauteur que le header (entête);  */ 
+    width : 150px ;/* largeur de 150 pixel  */
+   background-color : orange  ; /* couleur de fond selon le dessin fourni  */
 }
 
 #navbar {
-    /* hauteur de 50 pixels;  */
-    /* couleur de fond selon le dessin fourni  */
-    /* marge haute de 10 pixel */
+   height: 50px ; /* hauteur de 50 pixels;  */
+    background-color : yellow ;/* couleur de fond selon le dessin fourni  */
+    margin-top : 10px ; /* marge haute de 10 pixel */
 }
 
 #container { /*border:1px solid;*/ 
-    /* marge haute idem que la barre de navigation */
+    margin-top : 10px /* marge haute idem que la barre de navigation */
 }
 
 /* ce ci est nécessaire après utilisation de blocs flottants */
 #container::after{
     content:""; 
     display: block; 
-    clear: both
+    clear: both;
 }
 
 #left-panel {
-    /* hauteur de 600 pixels;  */
-    /* couleur de fond selon le dessin fourni  */
-    /* largeur de 25%  */
-    /* flottant à gauche */
+    height : 600px;/* hauteur de 600 pixels;  */
+    background-color : cyan;/* couleur de fond selon le dessin fourni  */
+    width : 25%;/* largeur de 25%  */
+    float : left;/* flottant à gauche */
 }
 
+
+
 #right-content{
-    /* largeur de 75% normalement, réajuster si besoin */
-    /* couleur de fond selon le dessin fourni  */
-    /* hauteur comme left-pannel  */
-    /* flottant à droite */
+    width : 75%;/* largeur de 75% normalement, réajuster si besoin */
+    background-color : brown;/* couleur de fond selon le dessin fourni  */
+    height : 600px;/* hauteur comme left-pannel  */
+    float : right;/* flottant à droite */
 }
 
 #footer {
-    /* hauteur comme left-pannel  */
-   /* couleur de fond selon le dessin fourni  */
-    /* marge haute de 10 pixel */
+    height : 100px; /* hauteur comme left-pannel  */
+   background-color : green;/* couleur de fond selon le dessin fourni  */
+   margin-top : 10px; /* marge haute de 10 pixel */
 }
 
 
